@@ -5,7 +5,7 @@
     "description": "Items Api",
     "version": "1.0.0"
   },
-  "host": "https://cse-341-glk2.onrender.com",
+  "host": "https://crud-operation-s19a.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
