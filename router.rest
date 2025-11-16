@@ -1,0 +1,29 @@
+//LOCALHOST
+### Get All Items
+GET http://localhost:3000/api/items
+
+### Get Items by ID
+GET http://localhost:3000/api/items/69187b3657aaf6ec655f4446
+
+### Create Items
+POST http://localhost:3000/api/items HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Sitting-room funitures",
+    "price":"$30",
+    "description":"Making your sitting room glow"
+}
+
+### Put Items
+PUT http://localhost:3000/api/items/69188dd3db77abd19eafc250 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Wardrobe",
+    "price":"$10.99",
+    "description":"A 3-door wardrobe"
+}
+
+### DELETE items
+DELETE http://localhost:3000/api/items/69187b3657aaf6ec655f4446
